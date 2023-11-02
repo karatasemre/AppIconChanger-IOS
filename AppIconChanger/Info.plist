@@ -2,6 +2,36 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundleAlternateIcons</key>
+		<dict>
+			<key>holiday</key>
+            <dict>
+                <key>CFBundleIconFiles</key>
+                <array>
+                    <string>holiday</string>
+                </array>
+            </dict>
+            <key>birthday</key>
+            <dict>
+                <key>CFBundleIconFiles</key>
+                <array>
+                    <string>birthday</string>
+                </array>
+            </dict>
+            <key>newyear</key>
+            <dict>
+                <key>CFBundleIconFiles</key>
+                <array>
+                    <string>newyear</string>
+                </array>
+            </dict>
+			
+		</dict>
+	</dict>
+	<key>CFBundleIdentifier</key>
+	<string></string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

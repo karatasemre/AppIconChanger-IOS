@@ -16,6 +16,12 @@
 		A44542FD2AEDB30700037D50 /* AppIconChangerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44542FC2AEDB30700037D50 /* AppIconChangerTests.swift */; };
 		A44543072AEDB30700037D50 /* AppIconChangerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44543062AEDB30700037D50 /* AppIconChangerUITests.swift */; };
 		A44543092AEDB30700037D50 /* AppIconChangerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44543082AEDB30700037D50 /* AppIconChangerUITestsLaunchTests.swift */; };
+		A445432B2AF3808600037D50 /* newyear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A44543252AF3808600037D50 /* newyear@2x.png */; };
+		A445432C2AF3808600037D50 /* holiday@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A44543262AF3808600037D50 /* holiday@3x.png */; };
+		A445432D2AF3808600037D50 /* birthday@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A44543272AF3808600037D50 /* birthday@3x.png */; };
+		A445432E2AF3808600037D50 /* holiday@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A44543282AF3808600037D50 /* holiday@2x.png */; };
+		A445432F2AF3808600037D50 /* newyear@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A44543292AF3808600037D50 /* newyear@3x.png */; };
+		A44543302AF3808600037D50 /* birthday@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A445432A2AF3808600037D50 /* birthday@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		A44543022AEDB30700037D50 /* AppIconChangerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppIconChangerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A44543062AEDB30700037D50 /* AppIconChangerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconChangerUITests.swift; sourceTree = "<group>"; };
 		A44543082AEDB30700037D50 /* AppIconChangerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconChangerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A44543252AF3808600037D50 /* newyear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "newyear@2x.png"; sourceTree = "<group>"; };
+		A44543262AF3808600037D50 /* holiday@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "holiday@3x.png"; sourceTree = "<group>"; };
+		A44543272AF3808600037D50 /* birthday@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "birthday@3x.png"; sourceTree = "<group>"; };
+		A44543282AF3808600037D50 /* holiday@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "holiday@2x.png"; sourceTree = "<group>"; };
+		A44543292AF3808600037D50 /* newyear@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "newyear@3x.png"; sourceTree = "<group>"; };
+		A445432A2AF3808600037D50 /* birthday@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "birthday@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,12 @@
 		A44542E42AEDB30600037D50 /* AppIconChanger */ = {
 			isa = PBXGroup;
 			children = (
+				A445432A2AF3808600037D50 /* birthday@2x.png */,
+				A44543272AF3808600037D50 /* birthday@3x.png */,
+				A44543282AF3808600037D50 /* holiday@2x.png */,
+				A44543262AF3808600037D50 /* holiday@3x.png */,
+				A44543252AF3808600037D50 /* newyear@2x.png */,
+				A44543292AF3808600037D50 /* newyear@3x.png */,
 				A44542E52AEDB30600037D50 /* AppDelegate.swift */,
 				A44542E72AEDB30600037D50 /* SceneDelegate.swift */,
 				A44542E92AEDB30600037D50 /* ViewController.swift */,
@@ -232,8 +250,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A44542F22AEDB30700037D50 /* LaunchScreen.storyboard in Resources */,
+				A445432E2AF3808600037D50 /* holiday@2x.png in Resources */,
+				A445432C2AF3808600037D50 /* holiday@3x.png in Resources */,
+				A445432D2AF3808600037D50 /* birthday@3x.png in Resources */,
 				A44542EF2AEDB30700037D50 /* Assets.xcassets in Resources */,
+				A445432B2AF3808600037D50 /* newyear@2x.png in Resources */,
 				A44542ED2AEDB30600037D50 /* Main.storyboard in Resources */,
+				A445432F2AF3808600037D50 /* newyear@3x.png in Resources */,
+				A44543302AF3808600037D50 /* birthday@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
